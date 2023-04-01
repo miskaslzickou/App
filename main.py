@@ -6,12 +6,11 @@ while True:
     if input1 == "run notepad":
         subprocess.run(['notepad.exe'])
         print("notepad should be running")
-
+    
     elif input1 == "run spotify":
         subprocess.run(['spotify.exe'])
         print("spotify should be running")
-
-  
+       
 
     elif input1 == "quit":
         break
