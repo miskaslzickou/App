@@ -12,6 +12,10 @@ while True:
         subprocess.run(['spotify.exe'])
         print("spotify should be running")
     
+    if input1 == "run task":
+        subprocess.run(['Taskmgr.exe'])
+        print("task manager should be running")
+    
     if input1 == "run firefox":
         subprocess.run(['C:/Program Files/Mozilla Firefox/firefox.exe'])
         print("Firefox should be running")
@@ -36,7 +40,8 @@ while True:
     if input1 == "run dis":
         subprocess.run(['discord.exe'])
         print("discord started")
-        
+   
+   
     if input1 == "kill all":
         subprocess.run(['taskkill', '/f', '/im', 'spotify.exe'])
         subprocess.run(['taskkill', '/f', '/im', 'chrome.exe'])
